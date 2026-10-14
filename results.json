@@ -1,0 +1,20 @@
+{
+  "data_provenance": "200 synthetic assignment rows, not real measured video quality",
+  "evaluation": "80/20 holdout seed 42; five-fold cross-validation on synthetic examples",
+  "random_forest": {
+    "holdout_mae": 8.05,
+    "holdout_r2": 0.8786,
+    "cv_mae_5fold": 7.11
+  },
+  "linear_regression": {
+    "holdout_mae": 8.48,
+    "holdout_r2": 0.8594
+  },
+  "precision": "Metrics rounded as printed by the unchanged original script.",
+  "top_feature": "engagement_rate",
+  "sha256": {
+    "tutorials.csv": "ce87975d7b62052febbc05a77b17025c54da9ba2eefcebe6af835a1ad304b900",
+    "scored_tutorials.csv": "55ab56b7f151580420bac30a67242ef43a34faf97e223a4bec2cd1878eef9fc8",
+    "model_analysis.png": "3b19c87d8112066a55f1af0688b2c18a940f28145b6936015ac5b0b7fca22f87"
+  }
+}
